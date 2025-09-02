@@ -17,6 +17,8 @@ import sqlite3
 
 load_dotenv()
 
+groq_api = st.secrets["GROQ_API_KEY"]
+openai_api = st.secrets["OPENAI_API_KEY"]
 
 # ------------------
 #llm = ChatGroq(model="openai/gpt-oss-120b")
@@ -94,5 +96,6 @@ def retrieve_all_threads():
     for checkpoint in checkpointer.list(None):
         all_threads.add(checkpoint.config["configurable"]["thread_id"])
     return list(all_threads)
+
 
 
