@@ -1,10 +1,12 @@
 langgraph
 langchain-core
-langchain
 langchain-openai
 langchain-groq
 langchain-google-genai
 langchain-community
+langgraph-checkpoint-sqlite
 streamlit
 python-dotenv
 requests
+
+
