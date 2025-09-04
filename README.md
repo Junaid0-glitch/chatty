@@ -31,46 +31,6 @@ A powerful and experimental chatbot built with LangGraph, featuring multi-LLM su
 *   **Database**: SQLite
 *   **Environment Management**: `python-dotenv`
 
-## 📦 Installation & Setup
-
-1.  **Clone the repository**
-    ```bash
-    git clone <your-repo-url>
-    cd your-project-directory
-    ```
-
-2.  **Create a virtual environment (recommended)**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
-
-3.  **Install dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *If you don't have a `requirements.txt`, install the core packages:*
-    ```bash
-    pip install langgraph langchain-google-genai langchain-openai streamlit python-dotenv
-    ```
-
-4.  **Set up Environment Variables**
-    Create a `.streamlit/secrets.toml` file for your API keys (the Streamlit standard):
-    ```toml
-    # .streamlit/secrets.toml
-    GROQ_API_KEY = "your_groq_api_key_here"
-    OPENAI_API_KEY = "your_openai_api_key_here"
-    GEMINI_API_KEY = "your_gemini_api_key_here" # If needed by the Google LLM
-    TAVILY_API_KEY = "your_tavily_api_key_here" # If needed by the tavily_search tool
-    ```
-    *You must obtain these API keys from their respective providers.*
-
-5.  **Run the Application**
-    ```bash
-    streamlit run app.py
-    ```
-    Replace `app.py` with the actual name of your Streamlit application file.
-
 ## 🚀 Usage
 
 1.  The Streamlit app will open in your browser.
@@ -110,5 +70,3 @@ This project is a foundation for my learning. Here's what I plan to implement ne
 *   **Production Frontend**: Replace the Streamlit UI with a custom, responsive frontend built with **HTML, CSS, and JavaScript** (likely with a framework like React or Next.js).
 *   **Enhanced UX**: Voice input/output, better chat history display, and message editing.
 *   **Authentication & Multi-User Support**: Allow different users to have their own isolated chat histories.
-
-## 📁 Project Structure (Overview)
