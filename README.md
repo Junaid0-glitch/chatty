@@ -8,6 +8,8 @@ A powerful and experimental chatbot built with LangGraph, featuring multi-LLM su
 [![Streamlit](https://img.shields.io/badge/Interface-Streamlit-FF4B4B?logo=streamlit)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Check out the app : https://chatty-kfm5jb32hb4knentfcmbig.streamlit.app/
+
 ## ✨ Features
 
 *   **🤖 Multi-LLM Backend**: Leverages the best models for different tasks (OpenAI GPT-4.1-nano for tool calling, Google Gemini 2.5-flash for general chat).
